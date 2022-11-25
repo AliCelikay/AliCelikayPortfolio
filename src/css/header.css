@@ -1,0 +1,31 @@
+header {
+    /* important overwrites anything previously */
+    position: sticky !important;
+    top: 0 !important;
+    /* navbar need to be above the content, w/o this then the nav would be behind the web conten */
+    z-index: 1;
+    
+    position: relative;
+    /* top right bottom left clockwise from top */
+    padding: 15px 6% 15px 0;
+    display: flex !important;
+    display:inline;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(49, 52, 61, 1);
+    /* box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4); */
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block !important;
+    color: rgba(49, 52, 61, 1);
+    background-color: rgba(146, 204, 206, 1);
+    /* background-image: linear-gradient(270deg, rgba(146, 204, 206, 1) 0%, rgba(49, 52, 61, 1) 190%); */
+    padding: 5px 1% 5px 6%;
+    margin: 0;
+    font-size: 4vw;
+    line-height: 1;
+}
