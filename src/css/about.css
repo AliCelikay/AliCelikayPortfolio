@@ -1,13 +1,17 @@
+
+
 .bioCont {
     display: flex;
     /* display: inline-block !important; */
     align-items: center;
+    /* margin-bottom: 25px; */
 }
 
 
 .bioInfo{
     margin-left: 30px;
     /* display: inline-block !important; */
+    /* margin-bottom: 45px; */
 }
 
 .aside {
