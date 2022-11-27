@@ -6,13 +6,15 @@ import '../../css/about.css'
 // We assign them to their own variable names
 export default function About() {
     return (
-        <div className=''>
-            <div>
+        <div>
+            <div className='about-page'>
                 <h2>
                     About Me
                 </h2>
                 <div className='bioCont'>
-                    <img alt='mypicture' className='img-thumbnail   myPic' src={AboutPic} />
+                    <div className='about-pic'>
+                        <img alt='mypicture' className='   myPic' src={AboutPic} />
+                    </div>
                     <div className='bioInfo'>
                         <p>
                             Hi, my name is Ali Celikay and I am a web developer that lives in a Chicago suborb, Des Plaines. I recently graduated from a Full Stack Flex coding bootcamp with Northwestern University where I earned my certificate of completion.

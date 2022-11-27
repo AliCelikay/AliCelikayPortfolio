@@ -4,12 +4,12 @@ header {
     top: 0 !important;
     /* navbar need to be above the content, w/o this then the nav would be behind the web conten */
     z-index: 1;
-    
+
     position: relative;
     /* top right bottom left clockwise from top */
     padding: 15px 6% 15px 0;
     display: flex !important;
-    display:inline;
+    display: inline;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -28,4 +28,33 @@ header h1 {
     margin: 0;
     font-size: 4vw;
     line-height: 1;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+
+    /* .page-section>h2,
+    .page-section>div {
+        flex: 0 0 100%;
+    }
+
+    .page-section>h2 {
+        border-right: none;
+        border-bottom: 4px solid var(--primary);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    } */
 }

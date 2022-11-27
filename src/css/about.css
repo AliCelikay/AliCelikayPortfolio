@@ -1,10 +1,9 @@
-
-
 .bioCont {
     display: flex;
     /* display: inline-block !important; */
     align-items: center;
-    /* margin-bottom: 25px; */
+    /* margin-bottom: 2px; */
+    margin: 15px;
 }
 
 
@@ -15,5 +14,36 @@
 }
 
 .aside {
-    margin: 40px;
+    margin: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+    .about-page>h2,
+    .about-page>div {
+        flex: 0 0 100%;
+    }
+
+    .about-page>h2 {
+        border-right: none;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 5vw;
+        display: flex;
+        justify-content: center !important;
+        border-bottom: 4px solid rgba(146, 204, 206, 1);
+    }
+
+    .bioCont {
+        display: block;
+        justify-content: center;
+    }
+
+    .about-pic {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px
+    }
+
+}
+
