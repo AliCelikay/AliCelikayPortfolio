@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import validateEmail from '../../utils/helpers';
+import emailjs from 'emailjs-com';
+import '../../css/contact.css'
 
 export default function Contact() {
     // Create state variables for the fields in the form
@@ -8,7 +10,27 @@ export default function Contact() {
     const [email, setEmail] = useState('');
     const [emailMessage, setEmailMessage] = useState('');
     const [errMessage, setErrMessage] = useState('');
+    const form = useRef();
+    
+    const sendMail = (e) => {
+        e.preventDefault();
 
+        // var params = {
+        //     name : document.getElementById("fullName").value,
+        //     email : document.getElementById("email_id").value,
+        //     message : document.getElementById("message").value,
+        // }
+
+        emailjs.sendForm('service_sn2zt1c', 'template_7boj66w', form.current, 'cI5GExuDWk12_cAoB')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            }
+        )
+        
+    }
+    
     const handleInputChange = (e) => {
         // Getting the value and name of the input which triggered the change
         const { target } = e;
@@ -25,6 +47,7 @@ export default function Contact() {
         };
 
     }
+
     const handleFormSubmit = (e) => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
@@ -49,18 +72,23 @@ export default function Contact() {
             return;
         }
 
+        
+
         // If everything goes according to plan, we want to clear out the input after a successful message.
         setName('');
         setEmail('');
         setEmailMessage('');
+        sendMail(e);
     }
+
     return (
-        <>
+        <div className='contact-form'>
             <h2>Contact Me</h2>
-            <form>
+            <form ref={form}>
                 <div className='form-group'>
-                    <label>Name</label>
+                    <label>Full Name</label>
                     <input
+                        id='fullName'
                         type='text'
                         value={name}
                         name='name'
@@ -73,6 +101,7 @@ export default function Contact() {
                 <div className='form-group'>
                     <label>Email Address</label>
                     <input
+                    id='email_id'
                         type='text'
                         value={email}
                         name='email'
@@ -85,6 +114,7 @@ export default function Contact() {
                 <div className='form-group'>
                     <label>Message</label>
                     <textarea
+                        id='message'
                         value={emailMessage}
                         name='message'
                         className=' form-control'
@@ -100,13 +130,15 @@ export default function Contact() {
                     </div>
                 )}
                 <button
-                    type="button"
+                    type="submit"
+                    value='send'
+                    className='btn btn-success form-btn'
                     onClick={handleFormSubmit}
                 >
                     Submit
                 </button>
             </form>
-        </>
+        </div>
     );
 
 }

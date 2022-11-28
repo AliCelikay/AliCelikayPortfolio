@@ -9,8 +9,8 @@ export default function Project(props) {
                     <span>
                         <h4 className="card-title text-body">{props.name}</h4>
                         <h6 className="card-title text-body">{props.description}</h6>
-                        <a href={props.link} target="_blank" className="card-link text-body">{props.liveLink}</a>
-                        <a href={props.github} style={{opacity: 1}} target="_blank" className="card-link text-body">{props.gitHubLink}</a>
+                        <a href={props.link} rel='noreferrer' target="_blank" className="card-link text-body">{props.liveLink}</a>
+                        <a href={props.github} rel='noreferrer' style={{opacity: 1}} target="_blank" className="card-link text-body">{props.gitHubLink}</a>
                     </span>
                 </div>
             </div>

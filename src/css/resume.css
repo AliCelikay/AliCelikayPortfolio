@@ -1,0 +1,21 @@
+.resume-cont {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .resume-cont>h2,
+    .resume-cont>div {
+        flex: 0 0 100%;
+    }
+
+    .resume-cont>h2 {
+        border-right: none;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 5vw;
+        display: flex;
+        justify-content: center !important;
+        border-bottom: 4px solid rgba(146, 204, 206, 1);
+    }
+}

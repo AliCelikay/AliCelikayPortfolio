@@ -1,10 +1,10 @@
 import React from 'react';
+import '../../css/resume.css'
 import webDevResume from '../../img/WebDev-Resume.pdf'
 
 export default function Resume() {
     return (
-        <div className='container'>
-            <div>
+            <div className='resume-cont'>
                 <h2>
                     Resume
                 </h2>
@@ -35,6 +35,5 @@ export default function Resume() {
                     </ul>
                 </div>
             </div>
-        </div>
     );
 }

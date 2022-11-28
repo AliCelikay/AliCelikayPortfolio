@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project';
+import '../../css/portfolio.css'
 // images
 import HW6 from '../../img/HW6.png';
 import Project1 from '../../img/Project1.png';
@@ -10,7 +11,7 @@ import Project3 from '../../img/Project3.png';
 
 export default function Portfolio() {
     return (
-        <div >
+        <div className='portfolio-cont'>
             <h2>My Portfolio's</h2>
             <div className='projectContainer row m-3 justify-content-center justify-content-around d-flex flex-wrap'>
                 <Project

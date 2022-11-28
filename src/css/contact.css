@@ -1,0 +1,21 @@
+.contact-form {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-form>h2,
+    .contact-form>div {
+        flex: 0 0 100%;
+    }
+
+    .contact-form>h2 {
+        border-right: none;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 5vw;
+        display: flex;
+        justify-content: center !important;
+        border-bottom: 4px solid rgba(146, 204, 206, 1);
+    }
+}
