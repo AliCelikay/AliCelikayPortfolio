@@ -1,7 +1,8 @@
 .project-card {
     background-size: cover;
-    width: 500px;
+    width: 475px !important;
     height: 250px;
+    border-radius: 15px !important;
 }
 
 .project-container {
@@ -10,6 +11,7 @@
 }
 
 .project-container .overlay {
+    border-radius: 15px !important;
     position: absolute;
     top: 0;
     left: 0;
@@ -25,10 +27,34 @@
     opacity: .9;
 }
 
-.overlay span {
+.overlay > span {
+    width: 100% !important;
+    padding: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+}
+
+.live-link{
+    transition: all 0.25s ease-in;
+    font-weight: bold;
+}
+
+.live-link:hover{
+    color: rgba(238, 238, 247, 1) !important;
+    /* font-weight: bold; */
+}
+
+
+.fa-github{
+    /* display: inline-block; */
+    /* position: fixed; */
+    padding-left: 25px;
+    transition: all 0.25s ease-in;
+}
+
+.fa-github:hover{
+    color: rgba(238, 238, 247, 1) !important;
 }

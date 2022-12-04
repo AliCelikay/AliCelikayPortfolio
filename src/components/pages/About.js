@@ -11,33 +11,37 @@ export default function About() {
                 <h2>
                     About Me
                 </h2>
-                <div className='bioCont'>
-                    <div className='about-pic'>
-                        <img alt='mypicture' className='   myPic' src={AboutPic} />
-                    </div>
-                    <div className='bioInfo'>
-                        <p>
-                            Hi, my name is Ali Celikay and I am a web developer that lives in a Chicago suborb, Des Plaines. I recently graduated from a Full Stack Flex coding bootcamp with Northwestern University where I earned my certificate of completion.
+                <div>
+                    <div className='card bioCont'>
+                        <div className='about-pic'>
+                            <img alt='mypicture' className=' myPic' src={AboutPic} />
+                        </div>
+                        <div className='bioInfo'>
+                            <p className=''>
+                                Hi, I am a Full Stack Web Developer from Des Plaines Illinois. I completed my Associate Degree from William Rainey Harper College in Engineering Science. I plan to further my education at University of Illinois Chicago in Computer Science.
 
-                            During my bootcamp experience, I was mentored by Full Stack graduates to work with like minded individuals on projects where we successfully deployed professional production ready websites. On one of these projects, I was chosen to be the project manager where I encouraged an environment of communication for tasks, problems, and roles and we earned a 90% as a grade on that project.
-                        </p>
-                        <p>
-                            In my free time, I am working on completing my Computer Science Bachlears degree. I recently graduated from William Rainey Harper College which is a community college at Schamburg Illinois.
-
-                            I plan to continue my education at University of Illinois Chicago where I plan to earn my Bachlears degree in Computer Science.
-
-                            During my college years, I have completed a few NASA programs where I was mentored by NASA engineers to work with like minded individuals on projects to successfully execute extraterrestrial missions. On one of these projects, I was chosen to be a business team lead where I successfully budgeted all the travel, material, and salary costs to be under our budget.
-
-                        </p>
-                    </div>
-                    <div className='aside'>
-                        <p>
-                            To learn more about website projects, checkout My Portfolio's from the navbar section above! To learn more about my past experience, checkout my LinkedIn page from the footer section below!
-                        </p>
+                                I also recently completed my Certificate in Full Stack Web Development from Northwestern University where I learned all the latest coding practices for designing a powerful responsive websites and applications.
+                            </p>
+                        </div>
                     </div>
                 </div>
+                {/* <div>
+                    <div className='tech-skills'>
+                        <h3>Technical skills</h3>
+                        <p>
+                            
+                            <li>Front End</li>
+                            <li>Back End</li>
+                            <li>Frame works</li>
+                            <li>Other Technologies</li>
+                        </p>
+                    </div>
+                </div> */}
             </div>
         </div>
     );
 }
+
+
+
 

@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import validateEmail from '../../utils/helpers';
 import emailjs from 'emailjs-com';
 import '../../css/contact.css'
+import { Icon } from '@iconify/react';
 
 export default function Contact() {
     // Create state variables for the fields in the form
@@ -11,15 +12,9 @@ export default function Contact() {
     const [emailMessage, setEmailMessage] = useState('');
     const [errMessage, setErrMessage] = useState('');
     const form = useRef();
-    
+
     const sendMail = (e) => {
         e.preventDefault();
-
-        // var params = {
-        //     name : document.getElementById("fullName").value,
-        //     email : document.getElementById("email_id").value,
-        //     message : document.getElementById("message").value,
-        // }
 
         emailjs.sendForm('service_sn2zt1c', 'template_7boj66w', form.current, 'cI5GExuDWk12_cAoB')
             .then((result) => {
@@ -27,10 +22,10 @@ export default function Contact() {
             }, (error) => {
                 console.log(error.text);
             }
-        )
-        
+            )
+
     }
-    
+
     const handleInputChange = (e) => {
         // Getting the value and name of the input which triggered the change
         const { target } = e;
@@ -72,7 +67,7 @@ export default function Contact() {
             return;
         }
 
-        
+
 
         // If everything goes according to plan, we want to clear out the input after a successful message.
         setName('');
@@ -82,63 +77,86 @@ export default function Contact() {
     }
 
     return (
-        <div className='contact-form'>
-            <h2>Contact Me</h2>
-            <form ref={form}>
-                <div className='form-group'>
-                    <label>Full Name</label>
-                    <input
-                        id='fullName'
-                        type='text'
-                        value={name}
-                        name='name'
-                        className='form-input form-control'
-                        placeholder='Please enter your full name'
-                        onChange={handleInputChange}
-                        required
-                    />
-                </div>
-                <div className='form-group'>
-                    <label>Email Address</label>
-                    <input
-                    id='email_id'
-                        type='text'
-                        value={email}
-                        name='email'
-                        className='form-input form-control'
-                        placeholder='Please enter your email address'
-                        onChange={handleInputChange}
-                        required
-                    />
-                </div>
-                <div className='form-group'>
-                    <label>Message</label>
-                    <textarea
-                        id='message'
-                        value={emailMessage}
-                        name='message'
-                        className=' form-control'
-                        placeholder='Please enter your message'
-                        onChange={handleInputChange}
-                        rows="5"
-                        required
-                    />
-                </div>
-                {errMessage && (
-                    <div>
-                        <p className="error-text">{errMessage}</p>
+        <>
+            <h2 className='contact-me'>Contact Me</h2>
+
+            <div className='about-section row'>
+                <div className='contact-info col-4'>
+                    <div className='email-div'>
+                        <h3><Icon icon="ic:baseline-mail-outline" width="40" height="40" />Email: <a className='email-link' href='alicelikay129@gmail.com'>alicelikay129@gmail.com</a></h3>
                     </div>
-                )}
-                <button
-                    type="submit"
-                    value='send'
-                    className='btn btn-success form-btn'
-                    onClick={handleFormSubmit}
-                >
-                    Submit
-                </button>
-            </form>
-        </div>
+                    <div className='number-div'>
+                        <h3><Icon icon="material-symbols:phone-android-outline" width="40" height="40" />Call: <span className='number'>(872)240-7651</span></h3>
+                    </div>
+                </div>
+
+                <div className='contact-form col-8'>
+                    <form ref={form}>
+                        <div className='form-group'>
+                            <label>Full Name</label>
+                            <input
+                                id='fullName'
+                                type='text'
+                                value={name}
+                                name='name'
+                                className='form-input form-control'
+                                placeholder='Please enter your full name'
+                                onChange={handleInputChange}
+                                required
+                            />
+                        </div>
+                        <div className='form-group'>
+                            <label>Email Address</label>
+                            <input
+                                id='email_id'
+                                type='text'
+                                value={email}
+                                name='email'
+                                className='form-input form-control'
+                                placeholder='Please enter your email address'
+                                onChange={handleInputChange}
+                                required
+                            />
+                        </div>
+                        <div className='form-group'>
+                            <label>Message</label>
+                            <textarea
+                                id='message'
+                                value={emailMessage}
+                                name='message'
+                                className=' form-control'
+                                placeholder='Please enter your message'
+                                onChange={handleInputChange}
+                                rows="5"
+                                required
+                            />
+                        </div>
+                        {errMessage && (
+                            <div>
+                                <p className="error-text">{errMessage}</p>
+                            </div>
+                        )}
+                        <button
+                            type="submit"
+                            value='send'
+                            className='btn btn-success form-btn'
+                            onClick={handleFormSubmit}
+                        >
+                            Submit
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+            {/* <div className='contact-info'>
+                <div className='email-div'>
+                    <h2>Email: <a className='email-link' href='alicelikay129@gmail.com'>alicelikay129@gmail.com</a></h2>
+                </div>
+                <div className='number-div'>
+                    <h2>Call: <span className='number'>(872)240-7651</span></h2>
+                </div>
+            </div> */}
+        </>
     );
 
 }

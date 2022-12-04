@@ -21,11 +21,20 @@ nav a {
 
 nav a:hover {
     background-size: 100% 100%;
-    color: rgba(238, 238, 247, 1);
+    color: rgba(238, 238, 247, 1) !important;
+    text-decoration: none;
+    /* border-top-right-radius: 10px; */
 }
 
 nav a:last-child {
     margin-right: 0;
+}
+
+.active{
+    color: rgba(238, 238, 247, 1) !important;
+    background-image: linear-gradient(270deg, rgba(146, 204, 206, 1) 0%, rgba(49, 52, 61, 1) 97%);
+    background-size: 100% 100%;
+    /* border-top-right-radius: 10px; */
 }
 
 @media screen and (max-width: 980px) {

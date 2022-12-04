@@ -1,21 +1,51 @@
+.about-page > h2{
+    border-bottom: 2px solid rgba(146, 204, 206, 1);
+}
+
 .bioCont {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    width: 750px;
     display: flex;
-    /* display: inline-block !important; */
-    align-items: center;
-    /* margin-bottom: 2px; */
-    margin: 15px;
+    justify-content: center;
+    box-shadow: 3px 3px 10px 1px;
+}
+
+.about-page > div{
+    display: flex;
+    justify-content: center;
+}
+
+.bioCont {
+    padding: 25px;
+    display: flex;
+    display: inline-block !important;
+}
+
+.myPic{
+    width: auto !important;
+    height: 15rem !important;
+    margin: 0px 45px 0px 35px;
+    float: left !important;
+    border-radius: 15px;
 }
 
 
 .bioInfo{
-    margin-left: 30px;
-    /* display: inline-block !important; */
-    /* margin-bottom: 45px; */
+    /* margin-left: 30px; */
+    padding: 5px 35px 0px 285px;
+    font-size:larger;
 }
 
-.aside {
-    margin: 30px;
+.tech-skills {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 10px 1px;
 }
+
 
 @media screen and (max-width: 1200px) {
     .about-page>h2,
@@ -37,6 +67,7 @@
     .bioCont {
         display: block;
         justify-content: center;
+        border-top: none;
     }
 
     .about-pic {
@@ -44,6 +75,11 @@
         justify-content: center;
         margin-bottom: 12px
     }
+
+    .bioInfo{
+        padding: 5px 35px 0px 35px;
+    }
+    
 
 }
 

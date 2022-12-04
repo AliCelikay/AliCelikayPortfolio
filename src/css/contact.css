@@ -1,14 +1,60 @@
+.contact-me{
+    border-bottom: 2px solid rgba(146, 204, 206, 1);
+}
+
+.contact-info{
+    display: flex;
+    float: left !important;
+    flex-wrap: wrap;
+}
+
+.contact-info{
+    display: flex;
+    /* justify-content: space-evenly !important; */
+    /* margin-bottom: 40px; */
+    /* justify-content: center !important; */
+    /* justify-items: center !important; */
+    
+}
+
 .contact-form {
-    padding-bottom: 30px;
+    /* border-top: 2px solid rgba(146, 204, 206, 1); */
+    padding: 10px 0px 40px;
+    /* display: inline-block; */
+    float: right;
+}
+
+a{
+    color: rgb(54, 161, 164) !important;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    font-style: italic;
+}
+
+.number{
+    color: rgb(54, 161, 164);
 }
 
 @media screen and (max-width: 1200px) {
-    .contact-form>h2,
+    .contact-me,
     .contact-form>div {
         flex: 0 0 100%;
     }
 
-    .contact-form>h2 {
+    .contact-form {
+        border-top: none;
+    }
+
+    .about-section{
+        display: grid !important;
+        justify-items: center;
+    }
+
+
+
+    .contact-me {
         border-right: none;
         margin-bottom: 20px;
         padding-bottom: 10px;
