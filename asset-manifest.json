@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/AliCelikayPortfolio/static/css/main.fb35ace7.css",
-    "main.js": "/AliCelikayPortfolio/static/js/main.facf9fc5.js",
+    "main.js": "/AliCelikayPortfolio/static/js/main.a54d0822.js",
     "static/media/Project3.png": "/AliCelikayPortfolio/static/media/Project3.2243a6b8c13483d57302.png",
     "static/media/Project1.png": "/AliCelikayPortfolio/static/media/Project1.b805e85bc2b445a2013d.png",
     "static/media/Project2.png": "/AliCelikayPortfolio/static/media/Project2.35193d2787b06235dd24.png",
     "static/media/HW21.png": "/AliCelikayPortfolio/static/media/HW21.8d03b77b4cb181927a3e.png",
     "static/media/HW6.png": "/AliCelikayPortfolio/static/media/HW6.550cb54062e312009edf.png",
-    "static/media/WebDev-Resume.pdf": "/AliCelikayPortfolio/static/media/WebDev-Resume.0f38ce0e8de5e123448a.pdf",
     "static/media/HW14.png": "/AliCelikayPortfolio/static/media/HW14.6c938367fa918e20abc2.png",
+    "static/media/Ali Celikay Resume.pdf": "/AliCelikayPortfolio/static/media/Ali Celikay Resume.dda1b665ac0d6f53b60c.pdf",
     "static/media/northwestern_profile.jpg": "/AliCelikayPortfolio/static/media/northwestern_profile.1bb002c2ae4641eeda75.jpg",
     "index.html": "/AliCelikayPortfolio/index.html",
     "main.fb35ace7.css.map": "/AliCelikayPortfolio/static/css/main.fb35ace7.css.map",
-    "main.facf9fc5.js.map": "/AliCelikayPortfolio/static/js/main.facf9fc5.js.map"
+    "main.a54d0822.js.map": "/AliCelikayPortfolio/static/js/main.a54d0822.js.map"
   },
   "entrypoints": [
     "static/css/main.fb35ace7.css",
-    "static/js/main.facf9fc5.js"
+    "static/js/main.a54d0822.js"
   ]
 }
