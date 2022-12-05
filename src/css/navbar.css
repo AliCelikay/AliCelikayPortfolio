@@ -37,9 +37,16 @@ nav a:last-child {
     /* border-top-right-radius: 10px; */
 }
 
+.navbar-toggler{
+    background-color: rgba(146, 204, 206, 1) !important;
+}
+
 @media screen and (max-width: 980px) {
+    
+
     nav {
-        justify-content: center;
+        display: flex;
+        justify-content: center !important;
     }
 /* 
     .page-section>h2,
@@ -56,3 +63,4 @@ nav a:last-child {
         font-size: 7vw;
     } */
 }
+

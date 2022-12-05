@@ -2,7 +2,7 @@
 import { Icon } from '@iconify/react';
 import React from 'react';
 import '../../css/resume.css'
-import webDevResume from '../../img/Ali Celikay Resume.pdf'
+import webDevResume from '../../img/Ali-Celikay-Resume.pdf'
 
 export default function Resume() {
     return (
@@ -14,13 +14,10 @@ export default function Resume() {
                 </div>
 
 
-
                 <p className='skills-btns'>
                     <a className="skill-btn text-black" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><Icon icon="material-symbols:computer" /> Front-End</a>
 
                     <a className="skill-btn text-black" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"><Icon icon="clarity:rack-server-line" /> Back-End</a>
-                    
-                    {/* <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button> */}
                 </p>
                 <div class="row skills-cards">
                     <div class="col-3">

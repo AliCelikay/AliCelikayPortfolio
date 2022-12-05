@@ -18,25 +18,17 @@ export default function About() {
                         </div>
                         <div className='bioInfo'>
                             <p className=''>
-                                Hi, I am a Full Stack Web Developer from Des Plaines Illinois. I completed my Associate Degree from William Rainey Harper College in Engineering Science. I plan to further my education at University of Illinois Chicago in Computer Science.
-
-                                I also recently completed my Certificate in Full Stack Web Development from Northwestern University where I learned all the latest coding practices for designing a powerful responsive websites and applications.
+                                Hi, I am a Full Stack Web Developer with a background in Computer Science. I recently completed my certificate in full-stack web development from Northwestern University and developed skills in MongoDB, Express.js, React.js, Node.js, MySQL, JavaScript, HTML, CSS, and others technologies to develop responsive web applications. After completing my boot camp at Northwestern, I have continued my studies independently to learn more about Amazon Web Services.
+                            </p>
+                            <p>
+                                I have also completed my associate degree in Engineering Science at William Rainey Harper College, and I plan to earn my bachelor's degree in Computer Science at the University of Illinois Chicago.
+                            </p>
+                            <p>
+                                I can collaborate and work with a diverse team while solving problems in high-stress environments. I enjoy connecting with co-workers, and I am passionate about building applications to make people's lives easier.
                             </p>
                         </div>
                     </div>
                 </div>
-                {/* <div>
-                    <div className='tech-skills'>
-                        <h3>Technical skills</h3>
-                        <p>
-                            
-                            <li>Front End</li>
-                            <li>Back End</li>
-                            <li>Frame works</li>
-                            <li>Other Technologies</li>
-                        </p>
-                    </div>
-                </div> */}
             </div>
         </div>
     );
