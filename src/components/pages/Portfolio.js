@@ -3,10 +3,12 @@ import Project from '../Project';
 import '../../css/portfolio.css'
 // images
 import HW6 from '../../img/HW6.png';
-import Project1 from '../../img/Project1.png';
+// import Project1 from '../../img/Project1.png';
+import HW19 from '../../img/HW19.png'
 import HW14 from '../../img/HW14.png';
 import Project2 from '../../img/Project2.png';
-import HW21 from '../../img/HW21.png';
+// import HW21 from '../../img/HW21.png';
+import SNA from '../../img/SNA.png'
 import Project3 from '../../img/Project3.png';
 
 export default function Portfolio() {
@@ -26,12 +28,12 @@ export default function Portfolio() {
                         liveLink="Live Link"
                     />
                     <Project
-                        name="Best Artist Search Ever"
-                        description="Learn about different forms of art, expand your knows about the art culture, and familiarize yourself with your favorite artist or artwork between the 18th and 21st century."
-                        tech="HTML, CSS Materialize, JavaScript, JQuery, Cleveland Museum of Art API"
-                        image={Project1}
-                        github="https://github.com/nolacoder/Best-Artist-Search-Ever"
-                        link="https://nolacoder.github.io/Best-Artist-Search-Ever/"
+                        name="PWA Text Editor "
+                        description="A PWA text editor with offline and downloadable app functionality that stores data in browser-side IndexedDB combined with service workers that use InjectManifest for smoother and faster functionality."
+                        tech="PWA, Service Worker, Node.js,Express.js, Webpack, UIKit, JavaScript, JQuery, HTML, CSS"
+                        image={HW19}
+                        github="https://github.com/AliCelikay/19-PWA-Editor"
+                        link="https://salty-meadow-74717.herokuapp.com/"
                         gitHubLink="GitHub Repo"
                         liveLink="Live Link"
                     />
@@ -56,14 +58,14 @@ export default function Portfolio() {
                         liveLink="Live Link"
                     />
                     <Project
-                        name="Google Book Search"
-                        description="MERN full-stack application for avid readers to search for new books to read so that they can keep a list of books to purchase."
-                        tech="MongoDB, Mongoose, Node.js, Express, React, JWT, Token, JavaScript, JQuery, HTML, CSS"
-                        image={HW21}
-                        github="https://github.com/AliCelikay/21-ali-MERN-Book-Search-Engine"
-                        link="https://protected-mountain-50676.herokuapp.com/"
+                        name="Social NetWork API"
+                        description="Back-end application allows users to socialize by adding thoughts, reacting to thoughts, and adding each other into their friends list."
+                        tech="MongoDB, Mongoose, Node.js, Express, React, JavaScript, JQuery"
+                        image={SNA}
+                        github="https://github.com/AliCelikay/SocialNetworkApi-CRUD-MongoDB"
+                        link="https://drive.google.com/file/d/1MOANt-BXQEC85_xOOT0cOqp8HeJ17Qd6/view"
                         gitHubLink="GitHub Repo"
-                        liveLink="Live Link"
+                        liveLink="Walkthrough Video"
                     />
                     <Project
                         name="Marvel Fan Fiction"
