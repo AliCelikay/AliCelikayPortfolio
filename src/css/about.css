@@ -84,13 +84,14 @@
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375.33px) {
     .about-page > h2{
        font-weight: bolder !important;
     }
 
-    .bioInfo > p {
-        font-size: medium !important;
+    .bioInfo {
+        font-size: small !important;
+        padding: 0px !important;
     }
 
 }

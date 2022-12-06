@@ -44,17 +44,26 @@
 
 .live-link:hover{
     color: rgba(238, 238, 247, 1) !important;
-    /* font-weight: bold; */
 }
 
 
 .fa-github{
-    /* display: inline-block; */
-    /* position: fixed; */
     padding-left: 25px;
     transition: all 0.25s ease-in;
 }
 
 .fa-github:hover{
     color: rgba(238, 238, 247, 1) !important;
+}
+
+@media screen and (max-width: 375.33px) {
+    .project-container{
+        width: 350px !important;
+        display: flex !important;
+    }
+
+    span{
+        padding: 4px !important;
+    }
+
 }

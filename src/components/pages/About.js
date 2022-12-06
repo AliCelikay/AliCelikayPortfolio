@@ -17,7 +17,7 @@ export default function About() {
                             <img alt='mypicture' className=' myPic' src={AboutPic} />
                         </div>
                         <div className='bioInfo'>
-                            <p className=''>
+                            <p >
                                 Hi, I am a Full Stack Web Developer with a background in Computer Science. I recently completed my certificate in full-stack web development from Northwestern University and developed skills in MongoDB, Express.js, React.js, Node.js, MySQL, JavaScript, HTML, CSS, and others technologies to develop responsive web applications. After completing my boot camp at Northwestern, I have continued my studies independently to learn more about Amazon Web Services.
                             </p>
                             <p>

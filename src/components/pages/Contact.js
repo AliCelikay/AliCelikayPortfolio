@@ -80,13 +80,13 @@ export default function Contact() {
         <>
             <h2 className='contact-me'>Contact Me</h2>
 
-            <div className='about-section row'>
+            <div className='contact-section row'>
                 <div className='contact-info col-4'>
                     <div className='email-div'>
-                        <h3><Icon icon="ic:baseline-mail-outline" width="40" height="40" />Email: <a className='email-link' href='alicelikay129@gmail.com'>alicelikay129@gmail.com</a></h3>
+                        <h3 className='email-phone'><Icon icon="ic:baseline-mail-outline" width="40" height="40" />Email: <a className='email-link' href='alicelikay129@gmail.com'>alicelikay129@gmail.com</a></h3>
                     </div>
                     <div className='number-div'>
-                        <h3><Icon icon="material-symbols:phone-android-outline" width="40" height="40" />Call: <span className='number'>(872)240-7651</span></h3>
+                        <h3 className='email-phone'><Icon icon="material-symbols:phone-android-outline" width="40" height="40" />Call: <span className='number'>(872)240-7651</span></h3>
                     </div>
                 </div>
 

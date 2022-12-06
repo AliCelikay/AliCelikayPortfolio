@@ -78,9 +78,46 @@
         margin-bottom: 20px;
         padding-bottom: 10px;
         text-align: left;
-        font-size: 5vw;
+        font-size: 8vw;
         display: flex;
         justify-content: center !important;
         border-bottom: 4px solid rgba(146, 204, 206, 1);
+    }
+}
+
+@media (min-width: 375.33px) and (max-width: 390px) {
+    .resume{
+       font-weight: bolder !important;
+    }
+    
+    .download{
+        font-size: 5vw;
+    }
+
+    .skills-btns{
+        display: block;
+        /* font-size: x-large; */
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .skill-btn{
+        font-size: medium;
+    }
+
+    .icon-cards{
+        width: 100px !important;
+    }
+
+    .card-1{
+        margin-right: 15px;
+    }
+
+    .card-2{
+        margin-right: 50px;
+    }
+
+    .icon-size{
+        font-size: x-small !important;
     }
 }
