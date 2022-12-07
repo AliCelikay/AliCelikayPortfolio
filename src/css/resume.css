@@ -85,7 +85,7 @@
     }
 }
 
-@media (min-width: 375.33px) and (max-width: 390px) {
+@media only screen and (min-width: 374px) and (max-width: 413px) {
     .resume{
        font-weight: bolder !important;
     }
