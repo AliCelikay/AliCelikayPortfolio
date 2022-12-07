@@ -66,7 +66,7 @@ a{
     }
 }
 
-@media only screen and (min-width: 374px) and (max-width: 413px){
+@media only screen and (min-width: 374px) and (max-width: 767px){
     .contact-me{
        font-weight: bolder !important;
     }

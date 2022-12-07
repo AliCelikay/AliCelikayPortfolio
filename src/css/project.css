@@ -56,7 +56,7 @@
     color: rgba(238, 238, 247, 1) !important;
 }
 
-@media only screen and (min-width: 374px) and (max-width: 413px){
+@media only screen and (min-width: 374px) and (max-width: 767px){
     .project-container{
         width: 350px !important;
         display: flex !important;

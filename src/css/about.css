@@ -84,7 +84,7 @@
 
 }
 
-@media only screen and (min-width: 374px) and (max-width: 413px){
+@media only screen and (min-width: 374px) and (max-width: 767px){
     .about-page > h2{
        font-weight: bolder !important;
     }
