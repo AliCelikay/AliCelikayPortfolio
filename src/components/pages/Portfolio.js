@@ -8,7 +8,7 @@ import HW19 from '../../img/HW19.png'
 import HW14 from '../../img/HW14.png';
 import Project2 from '../../img/Project2.png';
 // import HW21 from '../../img/HW21.png';
-import SNA from '../../img/SNA.png'
+import FitApp from '../../img/fitapp.png';
 import Project3 from '../../img/Project3.png';
 
 export default function Portfolio() {
@@ -58,14 +58,14 @@ export default function Portfolio() {
                         liveLink="Live Link"
                     />
                     <Project
-                        name="Social NetWork API"
-                        description="Back-end application allows users to socialize by adding thoughts, reacting to thoughts, and adding each other into their friends list."
-                        tech="MongoDB, Mongoose, Node.js, Express, React, JavaScript, JQuery"
-                        image={SNA}
-                        github="https://github.com/AliCelikay/SocialNetworkApi-CRUD-MongoDB"
-                        link="https://drive.google.com/file/d/1MOANt-BXQEC85_xOOT0cOqp8HeJ17Qd6/view"
+                        name="Fitness App"
+                        description="Front-end fitness application allows users browse over 1300 exercises with practical examples, choose major muscle groups from a category, search for a specific exercises, view related videos on YouTube, view similar exercises for the muscle groups, and view similar exercises for the equipment used"
+                        tech="Node.js, React.js, JavaScript, ExerciseDb API and YouTube Search and Download API, Material UI" 
+                        image={FitApp}
+                        github="https://github.com/AliCelikay/fitness-app"
+                        link="https://fitness-enhanced.netlify.app/"
                         gitHubLink="GitHub Repo"
-                        liveLink="Walkthrough Video"
+                        liveLink="Live Link"
                     />
                     <Project
                         name="Marvel Fan Fiction"

@@ -2,7 +2,7 @@
 import { Icon } from '@iconify/react';
 import React from 'react';
 import '../../css/resume.css'
-import webDevResume from '../../img/Ali-Celikay-Resume.pdf'
+import webDevResume from '../../img/Ali Celikay Resume.pdf'
 
 export default function Resume() {
     return (
@@ -32,7 +32,7 @@ export default function Resume() {
                                 <li className='icon-size'><i class="devicon-bootstrap-plain colored"></i> Bootstrap</li>
                                 <li className='icon-size'><i class="devicon-webpack-plain colored"></i> Webpack</li>
                                 <li className='icon-size'><Icon icon="logos:materializecss" width="18" height="20" /> Materialize</li>
-                                <li className='icon-size'><Icon icon="logos:uikit" width="20" height="20" /> UIKit</li>
+                                <li className='icon-size'><i class="devicon-materialui-plain colored"></i> Material UI</li>
                             </div>
                         </div>
                     </div>
