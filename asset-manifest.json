@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/AliCelikayPortfolio/static/css/main.e534c1ee.css",
-    "main.js": "/AliCelikayPortfolio/static/js/main.87b77f34.js",
+    "main.js": "/AliCelikayPortfolio/static/js/main.7001c075.js",
     "static/media/Project3.png": "/AliCelikayPortfolio/static/media/Project3.2243a6b8c13483d57302.png",
     "static/media/Project2.png": "/AliCelikayPortfolio/static/media/Project2.35193d2787b06235dd24.png",
+    "static/media/fitapp.png": "/AliCelikayPortfolio/static/media/fitapp.7a5a84e85ea9cca9d669.png",
     "static/media/HW6.png": "/AliCelikayPortfolio/static/media/HW6.550cb54062e312009edf.png",
-    "static/media/SNA.png": "/AliCelikayPortfolio/static/media/SNA.aa3c1df0c0dbbead4a47.png",
     "static/media/HW19.png": "/AliCelikayPortfolio/static/media/HW19.ba91f2a4734b776b57e2.png",
     "static/media/HW14.png": "/AliCelikayPortfolio/static/media/HW14.cb2a9a4c44e246928250.png",
-    "static/media/Ali-Celikay-Resume.pdf": "/AliCelikayPortfolio/static/media/Ali-Celikay-Resume.a34ed0a54fa84b17b450.pdf",
+    "static/media/Ali Celikay Resume.pdf": "/AliCelikayPortfolio/static/media/Ali Celikay Resume.c287f4aad9df9f98f3b7.pdf",
     "static/media/northwestern_profile.jpg": "/AliCelikayPortfolio/static/media/northwestern_profile.1bb002c2ae4641eeda75.jpg",
     "index.html": "/AliCelikayPortfolio/index.html",
     "main.e534c1ee.css.map": "/AliCelikayPortfolio/static/css/main.e534c1ee.css.map",
-    "main.87b77f34.js.map": "/AliCelikayPortfolio/static/js/main.87b77f34.js.map"
+    "main.7001c075.js.map": "/AliCelikayPortfolio/static/js/main.7001c075.js.map"
   },
   "entrypoints": [
     "static/css/main.e534c1ee.css",
-    "static/js/main.87b77f34.js"
+    "static/js/main.7001c075.js"
   ]
 }
