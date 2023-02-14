@@ -2,7 +2,7 @@
 import { Icon } from '@iconify/react';
 import React from 'react';
 import '../../css/resume.css'
-import webDevResume from '../../img/Ali Celikay Resume.pdf'
+import webDevResume from '../../img/AliCelikayResume.pdf'
 
 export default function Resume() {
     return (
