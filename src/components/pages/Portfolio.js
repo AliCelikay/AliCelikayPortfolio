@@ -2,7 +2,8 @@ import React from 'react';
 import Project from '../Project';
 import '../../css/portfolio.css'
 // images
-import HW6 from '../../img/HW6.png';
+// import HW6 from '../../img/HW6.png';
+import Java from '../../img/Java.png';
 // import Project1 from '../../img/Project1.png';
 import HW19 from '../../img/HW19.png'
 import HW14 from '../../img/HW14.png';
@@ -18,12 +19,12 @@ export default function Portfolio() {
             <div className='portfolio-cont'>
                 <div className='projectContainer row m-3 justify-content-center justify-content-around d-flex flex-wrap'>
                     <Project
-                        name="Weather Dashboard"
-                        description="Weather application for users to check the current and future weather forecasts in any city in the world."
-                        tech="HTML, CSS Bootstrap, JavaScript, JQuery, Moment.js, Openweathermap API"
-                        image={HW6}
-                        github="https://github.com/AliCelikay/WeatherReport"
-                        link="https://alicelikay.github.io/WeatherReport/"
+                        name="Java Tech News Api"
+                        description="Full Stack Java blog application using MongoDb as the database created for users to share and learn about all the latest tech savy information around the world."
+                        tech="Java, HTML, CSS, MongoDb"
+                        image={Java}
+                        github="https://github.com/AliCelikay/Tech-New-Api"
+                        link="https://tech-news-ali-java-api.herokuapp.com/"
                         gitHubLink="GitHub Repo"
                         liveLink="Live Link"
                     />
