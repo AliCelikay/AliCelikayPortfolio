@@ -20,8 +20,8 @@ export default function Portfolio() {
                 <div className='projectContainer row m-3 justify-content-center justify-content-around d-flex flex-wrap'>
                     <Project
                         name="Java Tech News Api"
-                        description="Full Stack Java blog application using MongoDb as the database created for users to share and learn about all the latest tech savy information around the world."
-                        tech="Java, HTML, CSS, MongoDb"
+                        description="News site that allows anyone to share a post about any new tech savvy technologies and comment or upvote on other people's posts."
+                        tech="Java, HTML, CSS, Thymeleaf, Spring"
                         image={Java}
                         github="https://github.com/AliCelikay/Tech-New-Api"
                         link="https://tech-news-ali-java-api.herokuapp.com/"
